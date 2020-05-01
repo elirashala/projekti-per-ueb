@@ -1,0 +1,42 @@
+.login-page {
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+  }
+  .form {
+    display: flex;
+    justify-content: center;
+    background: #FFFFFF;
+    padding: 45px;
+    text-align: center;
+  }
+  .form input {
+    background: #e2e2e2d8;
+    width: 85%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+  }
+  .form button {
+    background: #cc0000;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+  }
+  .form .message {
+    margin: 15px 0 0;
+    color: #b3b3b3;
+    font-size: 12px;
+  }
+  .form .message a {
+    color: #cc0000;
+  }
+  
+  body {
+    background-image: linear-gradient(to right, #cc0000, #dd032fc4);   
+  }
