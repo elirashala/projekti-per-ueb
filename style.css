@@ -1,17 +1,14 @@
- body {
-    background-image: linear-gradient(to right, #cc0000, #dd032fc4);   
-  }
-.login-page {
-    display: flex;
-    justify-content: center;
-    padding-top: 10%;
-  }
   .form {
     display: flex;
     justify-content: center;
     background: #FFFFFF;
     padding: 45px;
     text-align: center;
+}
+.login-page {
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
   }
   .form input {
     background: #e2e2e2d8;
@@ -39,4 +36,7 @@
   .form .message a {
     color: #cc0000;
   }
- 
+  
+  body {
+    background-image: linear-gradient(to right, #cc0000, #dd032fc4);   
+  }
